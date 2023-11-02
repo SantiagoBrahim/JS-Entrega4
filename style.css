@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #131415;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.title {
+  padding: 20px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.pokemon-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pokemon-search {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  border: 1px solid #fff;
+  background: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+}
+
+input[type="submit"] {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  width: 250px;
+  height: 35px;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #131415;
+  cursor: pointer;
+}
+
+.pokemon-container {
+  background-color: #fff;
+  color: #131415;
+  width: 300px;
+  margin: 30px auto;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.pokemon-img {
+  width: 130px;
+  height: 130px;
+}
+
+.altura,
+.peso {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.error-msg {
+  color: #f00;
+}
+.error {
+  border-color: #f00;
+  outline-color: #f00;
+}
+
+.success {
+  border-color: #0f0;
+  outline-color: #0f0;
+}
